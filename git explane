@@ -1,0 +1,29 @@
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hhaahaha/test.git
+git push -u origin master
+
+
+git init: git 저장소에 연결할 때, 파일이 필요함. '.git'
+(master): 모든 file을 바로 올릴 수 있음.
+(branch): 협업할 때 사용하는건데, 얘로 올리면 바로 승인이 필요하다 --> branch를 만들어 주고, master에서 checkout 얘로 들어가면 사용이 가능.
+
+git add ~~~
+stage라는게 있는데, 얘가 올리기 전에 올릴 파일을 올리는 곳임.
+왜 이렇게 하냐면? 어떤 파일은 올리고 싶고, 어떤 파일은 안 올리고 싶을 수 있음.
+그래서 stage가 있음.
+
+README.md --> file 이름을 적거나,
+git add --all --> 모든 file이 stage로 올라감.
+
+git commit -m "first commit"
+"jeongmee commit"... 내가 하고 싶은 말을 올리는 곳.
+"v1.0.0"
+
+git remote add origin "user.repo"
+어떤 주소에 올리겠다. 이걸 말하는건데, 이게 ".git"
+ 
+git push 
+stage에 올라간 파일을 repo에 올리는 작업.
