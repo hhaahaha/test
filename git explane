@@ -27,3 +27,9 @@ git remote add origin "user.repo"
  
 git push 
 stage에 올라간 파일을 repo에 올리는 작업.
+
+git status 
+stage에 올라가있는 파일 확인
+
+
+다러ㅏㅓㅗ ㅓㅏㅣ
